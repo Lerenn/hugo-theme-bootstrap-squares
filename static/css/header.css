@@ -1,0 +1,21 @@
+/* General */
+.navbar{
+  background-color: #174D75;
+  border-bottom: 3px solid #FFA319;
+}
+
+/* Links */
+.navbar .navbar-brand, .navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+/* Hover links */
+.navbar .navbar-brand:hover{
+  color: silver;
+}
+
+/* Hover title */
+.navbar-default .navbar-nav > li > a:hover{
+    color: #174D75;
+    background-color: white;
+}

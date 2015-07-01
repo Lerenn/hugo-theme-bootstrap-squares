@@ -1,8 +1,10 @@
 <head>
+  <meta charset="utf-8">
   <title>
     {{ .Site.Title }}
     {{ if not (eq .URL "/")}}
       - {{ .Title }}
     {{ end }}
   </title>
+  {{ partial "css.html" .}}
 </head>

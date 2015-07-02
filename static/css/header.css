@@ -10,7 +10,7 @@
 }
 
 /* Hover links */
-.navbar .navbar-brand:hover{
+.nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: silver;
 }
 

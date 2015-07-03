@@ -1,4 +1,8 @@
 /* General */
+body {
+  padding-top: 66px;
+}
+
 .navbar{
   background-color: #174D75;
   border-bottom: 3px solid #FFA319;

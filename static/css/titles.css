@@ -1,0 +1,14 @@
+.largeTitle{
+  border: 1px solid #DDD;
+  padding: 10px 15px;
+  background: white;
+  color: #174D75;
+}
+
+.syntaxhighlighter .code .container:before {
+  display: block;
+}
+
+h1, h2, h3, h4, h5{
+  color: #174D75;
+}

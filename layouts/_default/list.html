@@ -4,6 +4,13 @@
   <body>
     {{ partial "header.html" .}}
     <div class="container">
+      <h3 class="largeTitle">
+        {{ if eq .URL "/" }}
+          >> {{ .Site.Data.Translation.HomepageTitle }}
+        {{ else }}
+          >> {{ .Title }}
+        {{ end }}
+      </h3>
       {{ range .Data.Pages }}
         {{ .Render "summary" }}
       {{ end }}

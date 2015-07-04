@@ -1,0 +1,50 @@
+.panel{
+	border-radius: 0;
+}
+
+.panel-date{
+  color: grey;
+}
+
+.panel-default .panel-heading{
+	border-radius: 0;
+  color: white;
+  background-color: #174D75;
+}
+
+.panel-zone-bouton{
+  text-align: right;
+  margin-top: 15px;
+}
+
+.panel-infos{
+  margin: 5px 5px 5px 0px;
+}
+
+.panel-infos a{
+  color:silver;
+}
+
+.panel-comments{
+  margin-left: 20px;
+}
+
+.panel-comments li{
+  list-style-type:none;
+}
+
+.panel-heading h3{
+  color: white;
+}
+
+.btn-default{
+  background-color: #174D75;
+  border-color: #174D75;
+  color: white;
+}
+
+.btn-default:hover{
+  background-color: white;
+  border-color: silver;
+  color: #174D75;
+}

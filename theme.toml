@@ -10,3 +10,7 @@ min_version = 0.13
 [author]
   name = "Louis Fradin"
   homepage = "http://en.louis-fradin.net/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"

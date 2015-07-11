@@ -5,7 +5,11 @@
   {{ if isset .Site.Params "author" }}
     <meta name="author" content="{{ .Site.Params.author }}">
   {{ end}}
-  <meta name="description" content="">
+  {{ if ne .Description "" }}
+    <meta name="description" content="{{ .Description }}">
+  {{ else if isset .Site.Params "description" }}
+    <meta name="description" content="{{ .Site.Params.description }}">
+  {{ end}}
   <title>
     {{ .Site.Title }}
     {{ if not (eq .URL "/")}}

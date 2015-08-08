@@ -8,18 +8,27 @@ body {
   border-bottom: 3px solid #FFA319;
 }
 
+/* Toogle */
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar, .navbar-default .navbar-nav .open .dropdown-menu, .navbar .navbar-brand:hover {
+    background-color: white;
+}
+
 /* Links */
-.navbar .navbar-brand, .navbar-default .navbar-nav > li > a {
+.navbar .navbar-brand, .navbar-default .navbar-nav > li > a{
     color: white;
 }
 
-/* Hover links */
-.nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: silver;
-}
-
 /* Hover title */
-.navbar-default .navbar-nav > li > a:hover{
+.navbar .navbar-brand:hover, .navbar-default .navbar-nav > li > a:hover{
     color: #174D75;
     background-color: white;
+}
+
+/* Active links */
+.navbar .navbar-brand:focus, .navbar-default .navbar-nav > li > a:focus{
+  color: #FFA319;
 }

@@ -30,5 +30,5 @@ body {
 
 /* Active links */
 .navbar .navbar-brand:focus, .navbar-default .navbar-nav > li > a:focus{
-  color: #FFA319;
+  color: silver;
 }

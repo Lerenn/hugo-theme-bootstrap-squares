@@ -8,3 +8,13 @@ code {
   color: #AE6800;
   background-color: #F9F8F2;
 }
+
+::-moz-selection {
+    color: white;
+    background: #174D75;
+}
+
+::selection {
+    color: white;
+    background: #174D75;
+}

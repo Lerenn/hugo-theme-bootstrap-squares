@@ -6,9 +6,9 @@
     <div class="container">
       <h3 class="largeTitle">
         {{ if eq .URL "/" }}
-          >> {{ .Site.Data.Translation.HomepageTitle }}
+          # {{ .Site.Data.Translation.HomepageTitle }}
         {{ else }}
-          >> {{ .Title }}
+          # {{ .Title }}
         {{ end }}
       </h3>
       {{ range .Data.Pages }}

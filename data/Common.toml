@@ -1,8 +1,11 @@
 ##
 # This is the page of the common data.
 # You can copy it to your data folder and modify it.
+#
+# If you doesn't want one of the following element
+# You just have to let its value at ""
 ##
-Copyright = ""
-GitHub = ""
-LinkedIn = ""
-Docker = ""
+Copyright = "Copyright"
+GitHub = "https://github.com/"
+LinkedIn = "https://www.linkedin.com/"
+Docker = "https://hub.docker.com/"

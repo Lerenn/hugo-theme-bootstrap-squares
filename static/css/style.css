@@ -4,11 +4,22 @@ body {
   word-wrap: break-word;
 }
 
+/* Code */
+pre{
+  background-color: black;
+  border: 2px solid silver;
+}
+
+pre > code {
+  color: white;
+}
+
 code {
   color: #AE6800;
   background-color: #F9F8F2;
 }
 
+/* Selected text */
 ::-moz-selection {
     color: white;
     background: #174D75;
@@ -17,4 +28,8 @@ code {
 ::selection {
     color: white;
     background: #174D75;
+}
+
+a{
+  color: #174D75;
 }

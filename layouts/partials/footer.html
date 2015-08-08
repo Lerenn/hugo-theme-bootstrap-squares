@@ -1,6 +1,17 @@
 <footer class="footer">
   <div class="container">
-    <p>{{ .Site.Data.Common.Footer }}</p>
+    {{ if ne .Site.Data.Common.GitHub "" }}
+      <a href="{{ .Site.Data.Common.GitHub }}" target="_BLANK"><img src="/img/logos/github-white.png"/></a>
+    {{ end }}
+    {{ if ne .Site.Data.Common.LinkedIn "" }}
+      <a href="{{ .Site.Data.Common.LinkedIn }}" target="_BLANK"><img src="/img/logos/linkedin-white.png"/></a>
+    {{ end }}
+    {{ if ne .Site.Data.Common.Docker "" }}
+      <a href="{{ .Site.Data.Common.Docker }}" target="_BLANK"><img src="/img/logos/docker-white.png"/></a>
+    {{ end }}
+    <p>
+      {{ .Site.Data.Common.Copyright }}
+    </p>
   </div>
 </footer>
 

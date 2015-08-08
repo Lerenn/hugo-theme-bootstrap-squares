@@ -4,6 +4,7 @@ html {
 }
 
 .footer {
+  border-top: 3px solid grey;
   position: absolute;
   width: 100%;
   bottom: 0;

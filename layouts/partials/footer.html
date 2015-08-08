@@ -9,6 +9,9 @@
     {{ if ne .Site.Data.Common.Docker "" }}
       <a href="{{ .Site.Data.Common.Docker }}" target="_BLANK"><img src="/img/logos/docker-white.png"/></a>
     {{ end }}
+    {{ if ne .Site.Data.Common.Twitter "" }}
+      <a href="{{ .Site.Data.Common.Twitter }}" target="_BLANK"><img src="/img/logos/twitter-white.png"/></a>
+    {{ end }}
     <p>
       <i>{{ .Site.Data.Common.Copyright }}</i>
     </p>

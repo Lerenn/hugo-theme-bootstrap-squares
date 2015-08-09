@@ -5,6 +5,7 @@
 # If you doesn't want one of the following element
 # You just have to let its value at ""
 ##
+MainTitle = "Main Title"
 Copyright = "Copyright"
 GitHub = "https://github.com/"
 LinkedIn = "https://www.linkedin.com/"

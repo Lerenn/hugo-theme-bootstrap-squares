@@ -2,6 +2,7 @@ body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   background-color: #F1F1F1;
   word-wrap: break-word;
+  margin-top: -15px;
 }
 
 /* Code */
@@ -32,4 +33,8 @@ code {
 
 a{
   color: #174D75;
+}
+
+li {
+  list-style-type: square;
 }

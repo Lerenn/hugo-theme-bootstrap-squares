@@ -11,9 +11,24 @@
           # {{ .Title }}
         {{ end }}
       </h3>
-      {{ range .Data.Pages }}
+      {{ range (.Paginator 4).Pages }}
         {{ .Render "summary" }}
       {{ end }}
+      <div class="panel panel-default">
+        <div class="panel-body" style="margin: 0 5px; text-align: center">
+          {{ if .Paginator.HasPrev }}
+            <a href="{{ .Paginator.Prev.URL }}" style="float: left">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            </a>
+          {{ end }}
+          Page {{ .Paginator.PageNumber }} / {{ .Paginator.TotalPages }}
+          {{ if .Paginator.HasNext }}
+            <a href="{{ .Paginator.Next.URL }}" style="float: right">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </a>
+          {{ end }}
+        </div>
+      </div>
     </div>
     {{ partial "footer.html" .}}
   </body>

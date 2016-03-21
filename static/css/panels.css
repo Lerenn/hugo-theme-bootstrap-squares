@@ -30,8 +30,8 @@
   margin-left: 20px;
 }
 
-.panel-comments li{
-  list-style-type:none;
+.panel li{
+	list-style-type: square;
 }
 
 .panel-heading h3{
